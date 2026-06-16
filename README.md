@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Amanya%20Phillip&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Agentic%20AI%20Engineer%20%7C%20Flutter%20%26%20Web%20Dev%20%7C%20%F0%9F%87%BA%F0%9F%87%AC%20Uganda%20%E2%86%92%20%F0%9F%87%A8%F0%9F%87%A6%20Canada&descAlignY=60&descSize=16" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Amanya%20Phillip&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Agentic%20AI%20Engineer%20%7C%20Flutter%20%26%20Web%20Dev%20%7C%20Uganda%20%E2%86%92%20Canada&descAlignY=60&descSize=18" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Building+the+next+generation+of+Agentic+Systems+%F0%9F%A4%96;Orchestrating+AI+that+plans%2C+acts+%26+delivers+%F0%9F%94%97;Flutter+%7C+Web+%7C+AI+%E2%80%94+Full+spectrum+builder+%F0%9F%9A%80;Freelancing+%7C+Open+to+my+next+role+in+tech+%E2%9C%A8)](https://git.io/typing-svg)
 
@@ -18,20 +18,20 @@ class AmanyaPhillip:
     status     = "Freelancing · Actively seeking next role in AI/Software Engineering"
 
     focus      = [
-        "Agentic AI Engineering",       # where I'm going
-        "Flutter & Mobile Development", # where I've been strong
-        "Web Apps & REST APIs",         # what I ship regularly 
+	"Agentic AI Engineering & Automated Testing",      # where I'm going
+        "Quality Assurance & Flutter Mobile Development",  # where I've been strong
+        "Web Apps & Flutter Apps & Node Apps",             # what I ship regularly
     ]
 
     ai_stack   = {
         "frameworks"    : ["Claude SDK", "LangChain", "MCP Protocol"],
         "patterns"      : ["Multi-Agent Orchestration", "Tool Use", "Agentic Loops"],
-        "approach"      : "Building AI that doesn't just respond — it reasons and acts",
+        "approach"      : "Building with AI to systematically solve pain points in my life and in the life of my community",
     }
 
     building   = "Deepening my agentic orchestration skills for the new age of software"
-    open_to    = "Roles where AI + engineering intersect"
-    fun_fact   = "I automate the things I'm too lazy to do twice 😄"
+    open_to    = "Roles where AI + engineering intersect & SDET"
+    fun_fact   = "I automate the things I'm too lazy to do twice 😄 Love the outdoors, and if you want a real challenge at the pool table, I'm your opponent."
 ```
 
 ---
@@ -61,7 +61,7 @@ class AmanyaPhillip:
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![REST API](https://img.shields.io/badge/REST%20APIs-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
 **⚙️ Tools & Infrastructure**
 
@@ -76,8 +76,9 @@ class AmanyaPhillip:
 
 ## 🤖 Agentic AI & Orchestration
 
-> I'm in the business of building AI that **does things** — not just answers questions.
-> The new age of software development isn't about writing every line; it's about orchestrating systems that reason, plan, and execute.
+> I'm more excited than ever to code; in the new age of software development, we don't have to write every single line.
+> It's about **orchestrating systems that reason, plan, and execute autonomously.**
+> With the right instructions, proper guidelines, and an ever improving **HARNESS** — the sky's the limit.
 
 **What I'm mastering:**
 
@@ -131,7 +132,7 @@ class AmanyaPhillip:
 ## 🌱 What I'm Working On
 
 - 🤖 **Sharpening agentic orchestration** — building pipelines where AI agents plan and act end-to-end
-- 📱 **Flutter + AI** — exploring on-device and cloud-backed AI in mobile apps
+- 📱 **Flutter + AI** — exploring on-device and cloud-backed mobile apps
 - 🌐 **Web projects with AI layers** — REST APIs that do more than serve data
 - 🇨🇦 Settling into Canada and finding the right team to build with next
 
@@ -152,10 +153,10 @@ class AmanyaPhillip:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AmanyaPhillip&color=00D9FF&style=flat-square&label=Profile+Views)
 
-*"The best agent is the one that ships."* 🚀
+Tackling the 80% problem feature by feature. I leverage QA expertise to build code that doesn't just work, but lasts. 🛠️
 
 </div>

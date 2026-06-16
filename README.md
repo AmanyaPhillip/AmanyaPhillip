@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Amanya%20Phillip&fontSize=60&fontColor=fff&animation=twinkling&fontAlignY=35&desc=Agentic%20AI%20Engineer%20%7C%20Flutter%20%26%20Web%20Dev%20%7C%20Uganda%20%E2%86%92%20Canada&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;height=200&amp;section=header&amp;text=Amanya%20Phillip&amp;fontSize=60&amp;fontColor=fff&amp;animation=twinkling&amp;fontAlignY=35&amp;desc=Agentic%20AI%20Engineer%20%7C%20Flutter%20%26%20Web%20Dev%20%7C%20Uganda%20to%20Canada&amp;descAlignY=60&amp;descSize=18" width="100%"/>
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=00D9FF&center=true&vCenter=true&width=750&lines=Building+the+next+generation+of+Agentic+Systems+%F0%9F%A4%96;Orchestrating+AI+that+plans%2C+acts+%26+delivers+%F0%9F%94%97;Flutter+%7C+Web+%7C+AI+%E2%80%94+Full+spectrum+builder+%F0%9F%9A%80;Freelancing+%7C+Open+to+my+next+role+in+tech+%E2%9C%A8)](https://git.io/typing-svg)
 
@@ -153,7 +153,7 @@ class AmanyaPhillip:
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=gradient&amp;height=100&amp;section=footer" width="100%"/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=AmanyaPhillip&color=00D9FF&style=flat-square&label=Profile+Views)
 

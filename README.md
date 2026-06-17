@@ -119,7 +119,7 @@ class AmanyaPhillip:
 
 <div align="center">
 
-[![Farm Management](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=Farm-Management&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/Farm-Management)
+[![Farm Management](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=Farm-Management&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2)](https://github.com/AmanyaPhillip/Farm-Management)
 [![GeoTab Tracker](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=geotab-tracker&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/geotab-tracker)
 
 [![Luxo Request](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=luxo_request_mi&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/luxo_request_mi)

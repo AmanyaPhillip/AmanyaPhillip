@@ -104,7 +104,6 @@ class AmanyaPhillip:
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com/?user=AmanyaPhillip&theme=tokyonight&hide_border=true&background=0D1117&v=2)](https://git.io/streak-stats)
-
 </div>
 
 <div align="center">

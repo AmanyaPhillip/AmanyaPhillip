@@ -1,0 +1,23 @@
+# .github/workflows/purge-cache.yml
+# Forces GitHub to refresh the cached copies of all the external stat images
+# in your profile README by sending PURGE requests to GitHub's camo proxy.
+#
+# Place this file at:  AmanyaPhillip/AmanyaPhillip/.github/workflows/purge-cache.yml
+# (your profile repo — the one whose name matches your username)
+
+name: Purge README image cache
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"   # every 6 hours
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+
+permissions:
+  contents: read
+
+jobs:
+  purge:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge camo cache for README images
+        uses: kevincobain2000/action-camo-purge@v1

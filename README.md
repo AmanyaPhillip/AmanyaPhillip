@@ -112,7 +112,6 @@ class AmanyaPhillip:
 <div align="center">
   <img src="./profile/activity-graph.svg" alt="Activity Graph" />
 </div>
-
 ---
 
 ## 🚀 Featured Projects

@@ -102,8 +102,8 @@ class AmanyaPhillip:
 <br/>
 
 <div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="./profile-summary-card-output/github-readme-streak-stats/tokyonight.svg" alt="GitHub Streak" />
+  <a href="https://github.com/DenverCoder1/github-readme-streak-stats">
+    <img src="./profile/streak.svg" alt="GitHub Streak" />
   </a>
 </div>
 

@@ -16,17 +16,15 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # 1. Main GitHub Stats & Languages (Original Style)
+      # 1. Main GitHub Stats & Languages (Original Style via unified profile-summary action)
       - name: Generate GitHub Stats & Language Cards
-        uses: anuraghazra/github-readme-stats-action@v2
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          username: AmanyaPhillip
-          output_dir: profile
-          # Main stats card options
-          stats_options: 'show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117'
-          # Top languages card options
-          langs_options: 'layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117'
+          USERNAME: AmanyaPhillip
+          BRANCH_NAME: main
+          UTC: 0
 
       # 2. GitHub Streak Stats (Your favorite)
       - name: Generate Streak SVG
@@ -37,22 +35,30 @@ jobs:
           options: 'theme=tokyonight&background=0D1117&hide_border=true'
           path: profile/streak.svg
 
-      # 3. Activity Graph (Original Visuals)
+      # 3. Activity Graph (Original Visuals fix - pointing to the correct main branch)
       - name: Generate Activity Graph SVG
-        uses: ashutosh00710/github-readme-activity-graph@master
+        uses: ashutosh00710/github-readme-activity-graph@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: AmanyaPhillip
           THEME: tokyo-night
           BG_COLOR: 0D1117
           HIDE_BORDER: "true"
           CUSTOM_PATH: profile/activity-graph.svg
 
-      # 4. Commit and Push everything safely
+      # 4. Clean up file paths, Commit and Push everything safely
       - name: Commit and Push SVGs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Move summary cards to your matching path format if needed
+          mkdir -p profile
+          cp -r profile-summary-card-output/tokyonight/* profile/ 2>/dev/null || true
+          mv profile/0-profile-details.svg profile/github-stats.svg 2>/dev/null || true
+          mv profile/1-top-languages.svg profile/top-langs.svg 2>/dev/null || true
+          
           git add profile/*.svg
           git commit -m "Update all GitHub stats SVGs with classic layouts" || exit 0
           git pull --rebase origin main

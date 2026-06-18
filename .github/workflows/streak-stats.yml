@@ -15,10 +15,19 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - uses: DenverCoder1/github-readme-streak-stats-action@v1.1.0
+      
+      - name: Generate Streak SVG
+        uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           user: AmanyaPhillip
-          theme: tokyonight
-          background: 0D1117
-          hide_border: "true"
+          options: 'theme=tokyonight&background=0D1117&hide_border=true'
+          path: profile/streak.svg
+
+      - name: Commit and Push SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/streak.svg
+          git commit -m "Update streak stats SVG" || exit 0
+          git push

@@ -16,17 +16,21 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      # 1. Main GitHub Stats & Languages (Original Style via unified profile-summary action)
-      - name: Generate GitHub Stats & Language Cards
-        uses: vn7n24fzkq/github-profile-summary-cards@release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: AmanyaPhillip
-          BRANCH_NAME: main
-          UTC: 0
+      # Create directory for assets
+      - name: Setup Profile Folder
+        run: mkdir -p profile
 
-      # 2. GitHub Streak Stats (Your favorite)
+      # 1. Download Classic GitHub Stats Card
+      - name: Fetch Stats Card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" -o profile/github-stats.svg
+
+      # 2. Download Classic Top Languages Card
+      - name: Fetch Top Languages Card
+        run: |
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=AmanyaPhillip&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" -o profile/top-langs.svg
+
+      # 3. Generate Streak Stats (Using the action you verified works)
       - name: Generate Streak SVG
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
@@ -35,31 +39,17 @@ jobs:
           options: 'theme=tokyonight&background=0D1117&hide_border=true'
           path: profile/streak.svg
 
-      # 3. Activity Graph (Original Visuals fix - pointing to the correct main branch)
-      - name: Generate Activity Graph SVG
-        uses: ashutosh00710/github-readme-activity-graph@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          USERNAME: AmanyaPhillip
-          THEME: tokyo-night
-          BG_COLOR: 0D1117
-          HIDE_BORDER: "true"
-          CUSTOM_PATH: profile/activity-graph.svg
+      # 4. Download Classic Activity Graph
+      - name: Fetch Activity Graph
+        run: |
+          curl -s "https://github-readme-activity-graph.vercel.app/graph?username=AmanyaPhillip&theme=tokyo-night&bg_color=0D1117&hide_border=true" -o profile/activity-graph.svg
 
-      # 4. Clean up file paths, Commit and Push everything safely
+      # 5. Commit and Push everything safely
       - name: Commit and Push SVGs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # Move summary cards to your matching path format if needed
-          mkdir -p profile
-          cp -r profile-summary-card-output/tokyonight/* profile/ 2>/dev/null || true
-          mv profile/0-profile-details.svg profile/github-stats.svg 2>/dev/null || true
-          mv profile/1-top-languages.svg profile/top-langs.svg 2>/dev/null || true
-          
           git add profile/*.svg
-          git commit -m "Update all GitHub stats SVGs with classic layouts" || exit 0
+          git commit -m "Update all GitHub stats SVGs with original layouts" || exit 0
           git pull --rebase origin main
           git push

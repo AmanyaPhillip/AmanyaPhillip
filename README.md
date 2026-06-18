@@ -95,7 +95,7 @@ class AmanyaPhillip:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
   <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanyaPhillip&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages"/>
 </div>
 
@@ -110,11 +110,8 @@ class AmanyaPhillip:
 <br/>
 
 <div align="center">
-  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanyaPhillip&theme=tokyo-night&bg_color=0D1117&hide_border=true" alt="Activity Graph" />
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanyaPhillip&theme=tokyo-night&bg_color=0D1117&hide_border=true" alt="Activity Graph" />
 </div>
-
 ---
 
 ## 🚀 Featured Projects

@@ -95,7 +95,6 @@ class AmanyaPhillip:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="./profile/github-stats.svg" alt="GitHub Stats"/>
   <img height="180" src="./profile/top-langs.svg" alt="Top Languages"/>
 </div>
 

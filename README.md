@@ -95,8 +95,7 @@ class AmanyaPhillip:
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanyaPhillip&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages"/>
+  <img height="180" src="./profile/github-stats.svg" alt="GitHub Stats"/>
 </div>
 
 <br/>

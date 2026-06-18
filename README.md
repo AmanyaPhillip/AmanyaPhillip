@@ -109,8 +109,9 @@ class AmanyaPhillip:
 <br/>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanyaPhillip&theme=tokyo-night&bg_color=0D1117&hide_border=true" alt="Activity Graph" />
+  <img src="./profile/activity-graph.svg" alt="Activity Graph" />
 </div>
+
 ---
 
 ## 🚀 Featured Projects

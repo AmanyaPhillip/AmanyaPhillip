@@ -20,11 +20,7 @@ jobs:
       - name: Setup Profile Folder
         run: mkdir -p profile
 
-      # 1. Download Classic GitHub Stats Card
-      - name: Fetch Stats Card
-        run: |
-          curl -s "https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" -o profile/github-stats.svg
-
+   
       # 2. Download Classic Top Languages Card
       - name: Fetch Top Languages Card
         run: |

@@ -103,7 +103,7 @@ class AmanyaPhillip:
 
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=AmanyaPhillip&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+    <img src="./profile-summary-card-output/github-readme-streak-stats/tokyonight.svg" alt="GitHub Streak" />
   </a>
 </div>
 

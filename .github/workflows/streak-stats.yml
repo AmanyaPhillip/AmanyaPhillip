@@ -44,11 +44,12 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: bytes-size, percentage
 
-      # 3. Commit all generated files back to the repo
+     # 3. Commit all generated files back to the repo
       - name: Commit and Push SVGs
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update all GitHub stats SVGs" || exit 0
+          git pull --rebase origin main
           git push

@@ -95,21 +95,24 @@ class AmanyaPhillip:
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanyaPhillip&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117"/>
-
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=AmanyaPhillip&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117" alt="GitHub Stats"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AmanyaPhillip&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&bg_color=0D1117" alt="Top Languages"/>
 </div>
 
-<div align="center">
+<br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com/?user=AmanyaPhillip&theme=tokyonight&hide_border=true&background=0D1117&v=2)](https://git.io/streak-stats)
+<div align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com/?user=AmanyaPhillip&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak" />
+  </a>
 </div>
 
+<br/>
+
 <div align="center">
-
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AmanyaPhillip&theme=tokyo-night&bg_color=0D1117&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=AmanyaPhillip&theme=tokyo-night&bg_color=0D1117&hide_border=true" alt="Activity Graph" />
+  </a>
 </div>
 
 ---
@@ -118,8 +121,8 @@ class AmanyaPhillip:
 
 <div align="center">
 
-[![Farm Management](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=Farm-Management&theme=tokyonight&hide_border=true&bg_color=0D1117&v=2)](https://github.com/AmanyaPhillip/Farm-Management)
-[![GeoTab Tracker](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=geotab-tracker&theme=tokyonight&hide_border=true&bg_color=0D1117&v=3)](https://github.com/AmanyaPhillip/geotab-tracker)
+[![Farm Management](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=Farm-Management&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/Farm-Management)
+[![GeoTab Tracker](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=geotab-tracker&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/geotab-tracker)
 
 [![Luxo Request](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=luxo_request_mi&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/luxo_request_mi)
 [![Portfolio](https://github-readme-stats.vercel.app/api/pin/?username=AmanyaPhillip&repo=Portfolio&theme=tokyonight&hide_border=true&bg_color=0D1117)](https://github.com/AmanyaPhillip/Portfolio)
